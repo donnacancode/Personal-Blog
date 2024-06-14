@@ -1,4 +1,55 @@
-:root {
-  background-color: rgb(227, 210, 243);
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+body {
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(
+    122.90768696937607deg,
+    rgba(53, 154, 182, 1) 6.705776173285199%,
+    rgba(106, 179, 101, 1) 94.43140794223825%
+  );
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #82b6e0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #0a2847;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+  color: #17466e;
+  margin-bottom: 1.5rem;
+}
+
+.btn-primary,
+.btn-secondary {
+  background-color: #007bff;
+  border-color: #007bff;
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
 }

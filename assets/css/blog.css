@@ -1,0 +1,43 @@
+/* assets/css/blog.css */
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+#commentsSection {
+  border-top: 1px solid #ced4da;
+  padding-top: 1rem;
+}
+
+.comment {
+  padding: 1rem;
+  border-bottom: 1px solid #ced4da;
+  margin-bottom: 1rem;
+}
+
+.comment:last-child {
+  border-bottom: none;
+}
+
+.comment .name {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.comment .title {
+  font-style: italic;
+  color: #6c757d;
+}
+
+.comment .text {
+  margin-top: 0.5rem;
+}
