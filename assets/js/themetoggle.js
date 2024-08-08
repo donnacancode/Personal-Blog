@@ -21,6 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
     document.body.setAttribute("data-theme", theme);
     localStorage.setItem("theme", theme);
 
+    // Log the new theme
     console.log("Theme changed to:", theme);
   });
 });
