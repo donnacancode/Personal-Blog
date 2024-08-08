@@ -53,3 +53,19 @@ h2 {
   background-color: #0056b3;
   border-color: #0056b3;
 }
+
+/* Default light theme */
+body[data-theme="light"] {
+  background-color: white;
+  color: black;
+}
+
+/* Dark theme */
+body[data-theme="dark"] {
+  background-color: black;
+  color: white;
+}
+
+button {
+  margin: 10px 0;
+}

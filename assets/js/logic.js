@@ -1,5 +1,3 @@
-// logic.js
-
 function loadComments() {
   return JSON.parse(localStorage.getItem("comments")) || [];
 }
