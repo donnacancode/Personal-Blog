@@ -9,8 +9,12 @@ function saveComment(comment) {
 }
 
 function appendComment(comment, commentsSection) {
-  const newComment = document.createElement("div");
-  newComment.classList.add("comment");
-  newComment.innerHTML = `<p><strong>${comment.name}:</strong> ${comment.comment}</p>`;
-  commentsSection.appendChild(newComment);
+  if (commentsSection) {
+    const newComment = document.createElement("div");
+    newComment.classList.add("comment");
+    newComment.innerHTML = `<p><strong>${comment.name}:</strong> ${comment.comment}</p>`;
+    commentsSection.appendChild(newComment);
+  } else {
+    console.error("commentsSection not found");
+  }
 }
